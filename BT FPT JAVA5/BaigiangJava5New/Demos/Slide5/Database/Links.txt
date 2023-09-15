@@ -1,0 +1,2 @@
+https://gpcoder.com/6375-su-dung-hibernate-tool-tao-ra-cac-hibernate-entity-tu-cac-table/
+https://www.codejava.net/frameworks/hibernate/java-hibernate-reverse-engineering-tutorial-with-eclipse-and-mysql

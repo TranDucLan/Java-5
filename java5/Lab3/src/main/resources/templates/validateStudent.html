@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link th:href="@{/bootstrapv5/css/bootstrap.css}" rel="stylesheet"/>
+    <script th:src="@{/bootstrapv5/js/bootstrap.js}"></script>
+    <title>Page</title>
+</head>
+<body>
+<div class="container" style="margin-top: 10px;">
+    <div class="row"
+         style="border: 1px darkgrey solid; border-radius: 10px; width: 50%; margin: 0 auto; padding: 20px;">
+        <div class="col-sm-12">
+            <h2>Student</h2>
+            <form action="#" th:action="@{/add-student}" th:object="${student}" method="post">
+                <div class="form-group form-floating mb-3">
+                    <input type="text" class="form-control" id="username" placeholder="Enter Username"
+                           th:field="*{name}">
+                    <label for="username">Họ và Tên</label>
+                    <p class="alert alert-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">
+                </div>
+
+                <div class="form-group form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" th:field="*{email}">
+                    <label for="username">Email</label>
+                    <p class="alert alert-danger" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">
+                </div>
+
+                <div class="form-group form-floating mb-3">
+                    <input type="text" class="form-control" id="mark" placeholder="Enter Mark" th:field="*{mark}">
+                    <label for="username">Điểm</label>
+                    <p class="alert alert-danger" th:if="${#fields.hasErrors('mark')}" th:errors="*{mark}">
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="male" th:value="*{gender}"
+                               checked>
+                        <label class="form-check-label" for="male">
+                            Nam
+                        </label>
+                        <div class="form-check form-check-inline mx-2">
+                            <input class="form-check-input" type="radio"
+                                   name="gender" id="female" th:value="*{gender}">
+                            <label class="form-check-label" for="female">
+                                Nữ
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-floating mb-3">
+                    <select class="form-control" id="majorList">
+                        <option value="">Chọn chuyên ngành</option>
+                        <option th:each="major : ${majors}" th:value="${major.getId()}">
+                            <span th:text="${major.getName()}"></span>
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

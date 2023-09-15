@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\BT FPT JAVA5\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2897383954.index
+962802864.index
+786625390.index
+2123840030.index
+39645565.index
+989008991.index
+3826681208.index

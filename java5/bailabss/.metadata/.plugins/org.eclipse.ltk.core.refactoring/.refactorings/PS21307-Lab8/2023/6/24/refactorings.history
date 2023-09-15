@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;_menu.jsp&apos; to &apos;home&apos;&#x0D;&#x0A;- Original project: &apos;PS21307-Lab8&apos;&#x0D;&#x0A;- Destination element: &apos;home&apos;&#x0D;&#x0A;- Original element: &apos;_menu.jsp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/webapp/WEB-INF/views/layout3/_menu.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1686750003803" target="src/main/webapp/WEB-INF/views/home" units="0" version="1.0"/>
+</session>

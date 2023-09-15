@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/bootstrapv5/css/bootstrap.css}" rel="stylesheet"/>
+    <script th:src="@{/bootstrapv5/js/bootstrap.js}"></script>
+</head>
+<body>
+<div class="col-md-12 d-flex align-content-center justify-content-center mt-5">
+    <br/>
+    <div class="alert alert-success col-md-8" role="alert">
+        <p th:text="${successMsg}" class="text-center"></p>
+<!--        <p th:text="#{upload.message.success}"></p>-->
+    </div>
+</div>
+</body>
+</html>
