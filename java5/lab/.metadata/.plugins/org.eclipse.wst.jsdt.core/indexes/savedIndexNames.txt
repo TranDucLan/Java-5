@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+D:\FPT  Polytechnic\Summer2023\java5\lab\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2158779457.index
-1143344243.index
-847538712.index
-3271193799.index
-1650486160.index
-4287860388.index
-3184366565.index

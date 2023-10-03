@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-D:\FPT  Polytechnic\Summer2023\java5\lab\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1143344243.index
-\test\src\main\java
