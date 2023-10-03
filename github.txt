@@ -1,0 +1,18 @@
+git init                                                            //dùng để tạo ra Git repository
+git add *tên file*         vd: git add asm.html                     //dùng để gắn file vào Commit
+git add .                                                           //dùng để add tất cả file vào commit
+git commit -m "ghi chú"    vd: git commit -m "add asmHTML file"     //dùng để đưa commit lên Repository
+git branch -M *tên branch* vd: git branch -M main                   //dùng để tạo branch 
+git status                                                          //xem thông tin của commit branch file...
+git push -u origin main / gp                                        //dùng để đẩy các file đã add vào repository lên remote rorigin đã s
+git log                                                             //xem lịch sử thay đổi
+git clone *link github* (cmd)                                       //lấy file về máy
+
+
+
+git remote add origin *link github*                                 //set link git mặc định 
+
+vd: git remote add origin https://github.com/Tuan0106/github-demo.git   
+
+
+                                                                   
